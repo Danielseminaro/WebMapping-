@@ -1,0 +1,53 @@
+
+
+
+.logo2{
+    height: 150px;
+}
+
+.logo3{
+    width: 400px;
+    float: right;
+}
+
+
+
+
+.legendA {
+    line-height: 18px;
+    color: #555
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 20px;
+    opacity: 10;
+}
+
+
+
+
+
+.opciones: { 
+    position : 'topright' ,          // Opción de posición de control de 
+    folleto circleMarker : {                // Opciones de marcador de círculo de 
+      folleto para puntos utilizados en este color de complemento : 'rojo' , 
+      radio : 2 
+    } , 
+    .lineStyle : {                   // Opciones de polilínea de 
+      folleto para líneas utilizadas en este color de complemento : 'rojo' , 
+      dashArray : '1,6' 
+    } , 
+    .lengthUnit : {                  // Puede usar unidades de longitud personalizadas. La unidad predeterminada es kilómetros. 
+      pantalla :'km' ,               // Este es el valor de visualización que se mostrará en la pantalla. Ejemplo: 'metros' 
+      decimal : 2 ,                  // El resultado de la distancia se fijará en este valor. 
+      factor : nulo ,                // Este valor se usará para convertir desde kilómetros. Ejemplo: 1000 (de kilómetros a metros)   
+      etiqueta : 'Distancia:'            
+    } , 
+    .angleUnit : { 
+      display : '& deg;' ,            // Este es el valor de visualización que se mostrará en la pantalla. Ejemplo: 'Gradian' 
+      decimal : 2 ,                  // El resultado del 
+      rumbo se fijará en este valor. factor: nulo ,                 // Esta opción es necesaria para personalizar la unidad angular. Especifique el valor de ángulo sólido para la unidad de ángulo. Ejemplo: 400 (para gradian). 
+      etiqueta : 'Rodamiento:' 
+    } 
